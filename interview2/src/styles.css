@@ -1,0 +1,33 @@
+.product-card {
+  border: 1px solid black;
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.product-card > img {
+  height: 180px;
+  width: 180px;
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pagination-container{
+  display: flex;
+  height: auto;
+  gap: 10px;
+  width: auto;
+  justify-content: center;
+}
+
+.active{
+  background-color: aqua;
+}
+
+button{
+  cursor: pointer;
+}

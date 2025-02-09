@@ -1,0 +1,60 @@
+.tabContainer {
+  display: flex;
+  flex: 1;
+  border: 1px solid black;
+  height: 80vh;
+  width: 90%;
+  margin: 1rem;
+  background-color: antiquewhite;
+  flex-direction: column;
+}
+
+.tabHeaders {
+  display: flex;
+  height: fit-content;
+  gap: 0.5rem;
+}
+
+.tabHeader {
+  border: 1px solid brown;
+  height: max-content;
+  padding: 10px;
+  background-color: burlywood;
+  cursor: pointer;
+}
+
+.selectedTab {
+  background-color: cornflowerblue;
+}
+
+.profileSection {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+}
+.profileSection > label > input {
+  padding: 0.5rem;
+  margin-left: 1rem;
+}
+
+.tabContainer > button {
+  width: fit-content;
+  align-self: center;
+  cursor: pointer;
+}
+
+.themeContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.themeContainer > div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.errors {
+  color: red;
+}
